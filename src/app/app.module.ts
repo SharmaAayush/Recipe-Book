@@ -25,13 +25,3 @@ import { CoreModule } from './core/core.module';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-
-
-// var config = {
-//   apiKey: "AIzaSyACTpwWmYN0Pl98dQBikpidgV0qUDnO5-g",
-//   authDomain: "ng-recipe-book-75587.firebaseapp.com",
-//   databaseURL: "https://ng-recipe-book-75587.firebaseio.com",
-//   projectId: "ng-recipe-book-75587",
-//   storageBucket: "ng-recipe-book-75587.appspot.com",
-//   messagingSenderId: "686794725563"
-// };
