@@ -11,7 +11,8 @@ const appRoutes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(appRoutes, {preloadingStrategy: PreloadAllModules})
+  imports: [RouterModule.forRoot(appRoutes, {preloadingStrategy: PreloadAllModules}) 
+            // use imports: [RouterModule.forRoot(appRoutes, {preloadingStrategy: PreloadAllModules, useHash: true}) to enable HashLocationStrategy
   ],
   exports: [RouterModule]
 })
